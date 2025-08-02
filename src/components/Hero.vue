@@ -1,6 +1,6 @@
 <template>
   <section class="hero" id="home">
-    <div class="hero__container" style="background: #2c3e50;">
+    <div class="hero__container">
       <!-- Split Layout - 3/4 left, 1/4 right -->
       <div class="hero__split">
         <!-- Left Side - Image Carousel (3/4 width) -->
@@ -59,21 +59,21 @@
         </div>
 
         <!-- Right Side - AI Generated Bullet Points Card (1/4 width) -->
-        <div class="hero__right" style="background: #2c3e50;">
-          <div class="hero__card" style="background: #2c3e50; ;">
+        <div class="hero__right">
+          <div class="hero__card">
             <div class="hero__card-header">
-              <h1 class="hero__title" style="color: yellowgreen;">𝗔𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗶𝗼𝗻 𝗼𝗳 𝗕𝗮𝗻𝗴𝗹𝗮𝗱𝗲𝘀𝗵-𝗖𝗵𝗶𝗻𝗮 𝗔𝗹𝘂𝗺𝗻𝗶</h1>
+              <h1 class="hero__title">𝗔𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗶𝗼𝗻 𝗼𝗳 𝗕𝗮𝗻𝗴𝗹𝗮𝗱𝗲𝘀𝗵-𝗖𝗵𝗶𝗻𝗮 𝗔𝗹𝘂𝗺𝗻𝗶</h1>
             </div>
 
-            <div class="hero__points" style="background: #2c3e50;">
+            <div class="hero__points">
               <div 
                 v-for="(point, index) in heroContent.points" 
                 :key="index"
                 class="hero__point"
-                :style="{ '--point-color': point.color, background: '#2c3e50' }"
+                :style="{ '--point-color': point.color }"
               >
                 <div class="hero__point-content">
-                  <p style="color: white;">{{ point.text }}</p>
+                  <p>{{ point.text }}</p>
                 </div>
               </div>
             </div>
@@ -371,6 +371,7 @@ export default {
   flex: 1;
   display: flex;
   flex-direction: column;
+  background: #2c3e50;
 }
 
 .hero__split {
@@ -497,7 +498,7 @@ export default {
   align-items: flex-start;
   justify-content: flex-start;
   padding: 20px;
-  background: var(--surface);
+  background: #2c3e50;
   height: 100%;
   overflow-y: auto;
 }
@@ -505,6 +506,7 @@ export default {
 .hero__card {
   max-width: 100%;
   width: 100%;
+  background: #2c3e50;
 }
 
 .hero__card-header {
@@ -515,7 +517,7 @@ export default {
 
 .hero__title {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: white;
   margin-bottom: 16px;
   line-height: 1.2;
   font-weight: 600;
@@ -523,13 +525,14 @@ export default {
 
 .hero__points {
   margin-bottom: 30px;
+  background: #2c3e50;
 }
 
 .hero__point {
   margin-bottom: 20px;
   padding: 12px;
   border-radius: var(--border-radius);
-  background: white;
+  background: transparent;
   box-shadow: var(--shadow-1);
   transition: all 0.3s ease;
   border-left: 4px solid var(--point-color);
@@ -542,7 +545,7 @@ export default {
 
 .hero__point-content p {
   font-size: 0.9rem;
-  color: var(--text-primary);
+  color: white;
   line-height: 1.4;
   margin: 0;
 }
