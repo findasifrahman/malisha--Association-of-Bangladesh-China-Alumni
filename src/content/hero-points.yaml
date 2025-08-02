@@ -1,0 +1,25 @@
+title: "Association of Bangladesh-China Alumni"
+subtitle: "Connecting alumni from Bangladesh and China through shared experiences and opportunities"
+description: "Join our vibrant community of professionals, entrepreneurs, and leaders who are building bridges between cultures and fostering lifelong connections."
+points:
+  - icon: "groups"
+    title: "500+ Active Members"
+    description: "Join our growing network of professionals across industries"
+  - icon: "language"
+    title: "Cultural Exchange"
+    description: "Promoting understanding and collaboration between diverse communities"
+  - icon: "work"
+    title: "Professional Network"
+    description: "Connect with professionals across borders and industries"
+  - icon: "school"
+    title: "Lifelong Learning"
+    description: "Continuous education and skill development opportunities"
+cta:
+  primary:
+    text: "Join Us"
+    href: "#join"
+    icon: "person_add"
+  secondary:
+    text: "Learn More"
+    href: "#about"
+    icon: "info" 
