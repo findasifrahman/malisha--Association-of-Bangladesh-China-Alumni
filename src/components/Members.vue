@@ -40,22 +40,22 @@ export default {
     return {
       members: [
         {
-          image: '/src/assets/member-1.png',
+          image: '/assets/member-1.png',
           name: 'Sheikh Korban Ali',
           description: 'Graduated from China, Chairman Malisha Edu'
         },
         {
-          image: '/src/assets/member-2.jpeg',
+          image: '/assets/member-2.jpeg',
           name: 'Dr. Maruf',
           description: 'Graduated from China, Managing Director, Malisha Group'
         },
         {
-          image: '/src/assets/member-3.jpeg',
+          image: '/assets/member-3.jpeg',
           name: 'Dr. Rashed',
           description: 'Graduated from China, Chairman, BRCC'
         },
         {
-          image: '/src/assets/member-4.jpg',
+          image: '/assets/member-4.jpg',
           name: 'Dr. Komol',
           description: 'Graduated from China, Director, Malisha Edu'
         }

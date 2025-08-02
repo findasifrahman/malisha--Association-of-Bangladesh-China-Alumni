@@ -23,7 +23,7 @@
             muted 
             playsinline
           >
-            <source src="../assets/video.mp4" type="video/mp4">
+            <source src="/assets/video.mp4" type="video/mp4">
             {{ $t('programs.videoNotSupported') }}
           </video>
         </div>
@@ -100,10 +100,10 @@ export default {
   data() {
     return {
       galleryItems: [
-        { img: '/src/assets/ugc-chairman.jpg', caption: 'UGC Chairman' },
-        { img: '/src/assets/rajshahi-vc.jpg', caption: 'VC, Rajshahi University' },
-        { img: '/src/assets/jahangirnagar-vc.jpeg', caption: 'VC, Jahangirnagar University' },
-        { img: '/src/assets/du-faculty.jpg', caption: 'Faculty, Dhaka University' }
+        { img: '/assets/ugc-chairman.jpg', caption: 'UGC Chairman' },
+        { img: '/assets/rajshahi-vc.jpg', caption: 'VC, Rajshahi University' },
+        { img: '/assets/jahangirnagar-vc.jpeg', caption: 'VC, Jahangirnagar University' },
+        { img: '/assets/du-faculty.jpg', caption: 'Faculty, Dhaka University' }
       ]
     }
   }

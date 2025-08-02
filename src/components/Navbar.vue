@@ -85,7 +85,7 @@ export default {
 
 <style scoped>
 .navbar {
-  background: white;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   box-shadow: var(--shadow-1);
   position: sticky;
   top: 0;
@@ -110,7 +110,7 @@ export default {
 
 .navbar__brand h1 {
   font-size: 1.25rem;
-  color: var(--primary-color);
+  color: white;
   margin: 0;
 }
 
@@ -129,7 +129,7 @@ export default {
 }
 
 .navbar__menu a {
-  color: var(--text-primary);
+  color: white;
   text-decoration: none;
   padding: 12px 16px;
   border-radius: var(--border-radius);
@@ -137,8 +137,8 @@ export default {
 }
 
 .navbar__menu a:hover {
-  color: var(--primary-color);
-  background: var(--surface);
+  color: #3498db;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .navbar__lang {
@@ -148,9 +148,9 @@ export default {
 
 .navbar__lang button {
   padding: 8px 12px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid #3498db;
   background: transparent;
-  color: var(--primary-color);
+  color: #3498db;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -158,7 +158,7 @@ export default {
 
 .navbar__lang button.active,
 .navbar__lang button:hover {
-  background: var(--primary-color);
+  background: #3498db;
   color: white;
 }
 
@@ -168,7 +168,7 @@ export default {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--text-primary);
+  color: white;
 }
 
 @media (max-width: 768px) {

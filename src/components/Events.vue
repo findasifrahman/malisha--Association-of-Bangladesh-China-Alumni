@@ -37,7 +37,7 @@
         <!-- Right Column - Image -->
         <div class="events__image">
           <img 
-            src="/src/assets/dr-maruf.jpg" 
+            src="/assets/dr-maruf.jpg" 
             alt="Dr. Maruf - BRCC Opening Ceremony"
             class="events__image-img"
             loading="lazy"

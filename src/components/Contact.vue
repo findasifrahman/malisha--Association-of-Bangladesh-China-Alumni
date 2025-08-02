@@ -41,7 +41,7 @@
                 <h3>{{ $t('message.address') }}</h3>
                 <div class="contact__map">
                   <img 
-                    src="../assets/map.jpg" 
+                    src="/assets/map.jpg" 
                     alt="Dhaka, Bangladesh Map"
                     class="map__image"
                     loading="lazy"
@@ -59,7 +59,7 @@
             <div class="qr-code__item">
               <div class="qr-code__image-container">
                 <img 
-                  src="../assets/qrcode_malishaedu.jpg" 
+                  src="/assets/qrcode_malishaedu.jpg" 
                   alt="MalishaEdu QR Code"
                   class="qr-code__image"
                   loading="lazy"
@@ -71,7 +71,7 @@
             <div class="qr-code__item">
               <div class="qr-code__image-container">
                 <img 
-                  src="../assets/qrcode_whatsapp.jpg" 
+                  src="/assets/qrcode_whatsapp.jpg" 
                   alt="WhatsApp QR Code"
                   class="qr-code__image"
                   loading="lazy"

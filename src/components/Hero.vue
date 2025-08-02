@@ -62,7 +62,7 @@
         <div class="hero__right" style="background: #2c3e50;">
           <div class="hero__card" style="background: #2c3e50; ;">
             <div class="hero__card-header">
-              <h1 class="hero__title">𝗔𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗶𝗼𝗻 𝗼𝗳 𝗕𝗮𝗻𝗴𝗹𝗮𝗱𝗲𝘀𝗵-𝗖𝗵𝗶𝗻𝗮 𝗔𝗹𝘂𝗺𝗻𝗶</h1>
+              <h1 class="hero__title" style="color: yellowgreen;">𝗔𝘀𝘀𝗼𝗰𝗶𝗮𝘁𝗶𝗼𝗻 𝗼𝗳 𝗕𝗮𝗻𝗴𝗹𝗮𝗱𝗲𝘀𝗵-𝗖𝗵𝗶𝗻𝗮 𝗔𝗹𝘂𝗺𝗻𝗶</h1>
             </div>
 
             <div class="hero__points" style="background: #2c3e50;">
@@ -81,7 +81,7 @@
             <!-- Logo Centered in Right Column -->
             <div class="hero__logo">
               <img 
-                src="/src/assets/logo.png" 
+                src="/assets/logo.png" 
                 alt="BD-CN Alumni Association Logo"
                 class="hero__logo-img"
                 loading="lazy"
@@ -156,37 +156,37 @@ export default {
     // Hero Images with specific names
     const heroImages = ref([
       {
-        src: '/src/assets/gallery-1.png',
+        src: '/assets/gallery-1.png',
         alt: 'Alumni Meeting',
         title: 'Annual Alumni Gathering',
         description: 'Connecting alumni from Bangladesh and China through shared experiences'
       },
       {
-        src: '/src/assets/gallery-2.png',
+        src: '/assets/gallery-2.png',
         alt: 'Cultural Exchange',
         title: 'Cultural Exchange Program',
         description: 'Promoting understanding and collaboration between diverse communities'
       },
       {
-        src: '/src/assets/gallery-3.png',
+        src: '/assets/gallery-3.png',
         alt: 'Professional Network',
         title: 'Professional Networking',
         description: 'Building bridges across industries and borders'
       },
       {
-        src: '/src/assets/gallery-4.png',
+        src: '/assets/gallery-4.png',
         alt: 'Graduation Ceremony',
         title: 'Graduation Ceremony',
         description: 'Celebrating academic achievements and lifelong learning'
       },
       {
-        src: '/src/assets/gallery-5.png',
+        src: '/assets/gallery-5.png',
         alt: 'International Conference',
         title: 'International Conference',
         description: 'Global collaboration and knowledge sharing'
       },
       {
-        src: '/src/assets/gallery-6.png',
+        src: '/assets/gallery-6.png',
         alt: 'Community Service',
         title: 'Community Service',
         description: 'Giving back to society through volunteer work'
